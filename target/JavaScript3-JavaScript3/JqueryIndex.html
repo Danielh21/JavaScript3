@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"/>
+        <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+        <script src="JavaScriptWithJQuery.js" type="text/javascript"></script>
+        <title>Start Page</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <div class="container">
+            <h1> Assignment 1</h1>
+            1. Create 3 divs next to each other in the HTML page <br>
+ a. Give them a height and width of 100px and different background colors.<br>
+ b. Hide the first div when it is clicked. <br>
+ c. Change the border size to 4 of the second div when it is hovered. <br>
+ d. Change font size on the third when the second one is being clicked. <br> //okay
+ 
+            <div class="row">
+                <div id="firstdiv" class="col-sm-3 col-sm-offset-1" style="height: 100px;  background-color: red;" >Div 1</div>
+                <div id="seconddiv" class="col-sm-3 col-sm-offset-1"style="height: 100px;  background-color: blue;">Div 2</div>
+                <div id="thriddiv" class="col-sm-3 col-sm-offset-1"  style="height: 100px; background-color: yellow;">Div 3</div>
+                
+                <br> 
+                <br> 
+                
+            </div>
+           <h1> Assignment 2</h1>
+           2. Create 9 divs (3x3) and give each a number inside <br>
+           a. Iterate over the div element and add click event handlers <br>
+b. When a div is clicked its value should change to its value to the power of 2.
+           <div id="secondAss">
+               
+            <div class="row">
+                <div id="firstdivr1" class="col-sm-3 numrow" style="height: 100px;  background-color: lightskyblue;" >1</div>
+                <div id="seconddivr1" class="col-sm-3 numrow"style="height: 100px;  background-color: gray;">2</div>
+                <div id="thriddivr1" class="col-sm-3 numrow"  style="height: 100px; background-color: lightskyblue;">3</div>
+            </div>
+           <div class="row">
+                <div id="firstdivr2" class="col-sm-3 numrow" style="height: 100px;  background-color: gray;" >4</div>
+                <div id="seconddivr2" class="col-sm-3 numrow"style="height: 100px;  background-color: lightskyblue;">5</div>
+                <div id="thriddivr2" class="col-sm-3 numrow"  style="height: 100px; background-color: gray;">6</div>
+            </div>
+           <div class="row">
+                <div id="firstdivr3" class="col-sm-3 numrow" style="height: 100px;  background-color: lightskyblue;" >7</div>
+                <div id="seconddivr3" class="col-sm-3 numrow"style="height: 100px;  background-color: gray;">8</div>
+                <div id="thriddivr3" class="col-sm-3 numrow"  style="height: 100px; background-color: lightskyblue;">9</div>
+            </div>
+            
+               <br>
+               <br>
+               <br>
+           </div>
+            
+           <h1>Assigment 3</h1>
+           3. Create a list (UL) in html with 10 list items <br>
+           a. Using filters in jquery change the background color of each second list item to be light grey.<br>
+        b. Iterate over the items and increase the font size on each item progressively.
+           
+        <ul id="ullist">
+            <li>item 1</li>
+            <li>item 2</li>
+            <li>item 3</li>
+            <li>item 4</li>
+            <li>item 5</li>
+            <li>item 6</li>
+            <li>item 7</li>
+            <li>item 8</li>
+            <li>item 9 </li>
+            <li>item 9</li>
+        </ul>
+        
+        
+        <br>
+        <br>
+        <br>
+        <h1> Assigment 4</h1>
+        4. Create an html page with 10 small pictures next to each other<br>
+        a. Create a function that will swap the pictures around <br>
+        b. Apply the function whenever an image is clicked<br>
+        
+        <div id="picdiv" class="row">
+            
+            
+            
+                <img id="pic1" src="pics/1.png" alt=""/>
+            
+            
+                <img id="pic2" src="pics/Redskins logo_classic.png" alt=""/>
+            
+            
+                <img src="pics/afafa.png" alt=""/>
+           
+            
+                <img src="pics/afafafabab.png" alt=""/>
+            
+            
+                <img src="pics/fasfafa.png" alt=""/>
+            
+            
+                <img src="pics/fqfq.png" alt=""/>
+          
+            
+                <img src="pics/fqfqqfq.png" alt=""/>
+            
+           
+                <img src="pics/imagr3r.png" alt=""/>
+            
+            
+                <img src="pics/r3r3.png" alt=""/>
+            
+        
+                <img src="pics/rqrqq.png" alt=""/>
+          
+            
+            
+        </div>
+        
+        <br>
+        <br>
+        <br>
+        
+        <h1>Assigment 5</h1>
+        5. Create a form with input fields for user registration<br>
+        a. Using jquery check that all input fields have been filled out<br>
+        b. If not insert a message in red writing inside the input field that was not filled.<br>
+ c. Make sure the submit button is disabled as long as not all fields are filled.
+ <br>
+ <br>
+ <br>
+        
+ <div id="assigment5">
+     <form id="formid" name="form1">
+         Name<input type="text" name="name" value="" />
+         Password<input type="text" name="password" value="" />
+         <input id="subbutton" type="button" value="submit" name="button1" />
+     </form>
+     <br>
+     <br>
+     <br>
+     <br>
+     <br>
+     
+ </div>
+ 
+ <h1>Assigment 6</h1>
+ 6. Take an array of person objects and iterate over them. <br>
+ a. Insert all attributes of each object in a table that you create with jquery.<br>
+b. Make an eventhandler for mouseover event on each table row, so that when hovering over a person object the text becomes bold and italic.
+        
+<div id="assigment6">
+    
+    <table id="tableid" class="table">
+        <thead>
+            <tr>
+                <td>Name</td>  
+                <td>Age</td>  
+            </tr>
+        </thead>
+        <tbody id="tbody">
+            
+        </tbody>
+        
+        
+    </table>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+</div>
+
+
+        </div>
+        
+        
+        
+    </body>
+    
+    
+    </html>
+    
+   
